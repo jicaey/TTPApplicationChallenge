@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		703B1CDF1EAC50C800ADC385 /* OnePlayerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703B1CDE1EAC50C800ADC385 /* OnePlayerMode.swift */; };
+		703B1CE11EAC7C2C00ADC385 /* TwoPlayerPassMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703B1CE01EAC7C2C00ADC385 /* TwoPlayerPassMode.swift */; };
+		703B1CE31EAC7C3F00ADC385 /* TwoPlayerNetworkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703B1CE21EAC7C3F00ADC385 /* TwoPlayerNetworkMode.swift */; };
+		703B1CE51EAC870000ADC385 /* GameServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703B1CE41EAC870000ADC385 /* GameServiceManager.swift */; };
 		70665B4B1EAC1C39001A47B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70665B4A1EAC1C39001A47B0 /* AppDelegate.swift */; };
-		70665B4D1EAC1C39001A47B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70665B4C1EAC1C39001A47B0 /* ViewController.swift */; };
+		70665B4D1EAC1C39001A47B0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70665B4C1EAC1C39001A47B0 /* MainViewController.swift */; };
 		70665B501EAC1C3A001A47B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70665B4E1EAC1C3A001A47B0 /* Main.storyboard */; };
 		70665B531EAC1C3A001A47B0 /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70665B511EAC1C3A001A47B0 /* TicTacToe.xcdatamodeld */; };
 		70665B551EAC1C3A001A47B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70665B541EAC1C3A001A47B0 /* Assets.xcassets */; };
 		70665B581EAC1C3A001A47B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70665B561EAC1C3A001A47B0 /* LaunchScreen.storyboard */; };
+		70665B601EAC1EF3001A47B0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70665B5F1EAC1EF3001A47B0 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		703B1CDE1EAC50C800ADC385 /* OnePlayerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePlayerMode.swift; sourceTree = "<group>"; };
+		703B1CE01EAC7C2C00ADC385 /* TwoPlayerPassMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPlayerPassMode.swift; sourceTree = "<group>"; };
+		703B1CE21EAC7C3F00ADC385 /* TwoPlayerNetworkMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPlayerNetworkMode.swift; sourceTree = "<group>"; };
+		703B1CE41EAC870000ADC385 /* GameServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameServiceManager.swift; sourceTree = "<group>"; };
 		70665B471EAC1C39001A47B0 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70665B4A1EAC1C39001A47B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70665B4C1EAC1C39001A47B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70665B4C1EAC1C39001A47B0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		70665B4F1EAC1C3A001A47B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70665B521EAC1C3A001A47B0 /* TicTacToe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTacToe.xcdatamodel; sourceTree = "<group>"; };
 		70665B541EAC1C3A001A47B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70665B571EAC1C3A001A47B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70665B591EAC1C3A001A47B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70665B5F1EAC1EF3001A47B0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +67,15 @@
 			isa = PBXGroup;
 			children = (
 				70665B4A1EAC1C39001A47B0 /* AppDelegate.swift */,
-				70665B4C1EAC1C39001A47B0 /* ViewController.swift */,
+				70665B4C1EAC1C39001A47B0 /* MainViewController.swift */,
+				703B1CE41EAC870000ADC385 /* GameServiceManager.swift */,
+				703B1CDE1EAC50C800ADC385 /* OnePlayerMode.swift */,
+				703B1CE01EAC7C2C00ADC385 /* TwoPlayerPassMode.swift */,
+				703B1CE21EAC7C3F00ADC385 /* TwoPlayerNetworkMode.swift */,
+				70665B5F1EAC1EF3001A47B0 /* Constants.swift */,
 				70665B4E1EAC1C3A001A47B0 /* Main.storyboard */,
-				70665B541EAC1C3A001A47B0 /* Assets.xcassets */,
 				70665B561EAC1C3A001A47B0 /* LaunchScreen.storyboard */,
+				70665B541EAC1C3A001A47B0 /* Assets.xcassets */,
 				70665B591EAC1C3A001A47B0 /* Info.plist */,
 				70665B511EAC1C3A001A47B0 /* TicTacToe.xcdatamodeld */,
 			);
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703B1CDF1EAC50C800ADC385 /* OnePlayerMode.swift in Sources */,
+				703B1CE51EAC870000ADC385 /* GameServiceManager.swift in Sources */,
 				70665B531EAC1C3A001A47B0 /* TicTacToe.xcdatamodeld in Sources */,
-				70665B4D1EAC1C39001A47B0 /* ViewController.swift in Sources */,
+				70665B4D1EAC1C39001A47B0 /* MainViewController.swift in Sources */,
 				70665B4B1EAC1C39001A47B0 /* AppDelegate.swift in Sources */,
+				70665B601EAC1EF3001A47B0 /* Constants.swift in Sources */,
+				703B1CE31EAC7C3F00ADC385 /* TwoPlayerNetworkMode.swift in Sources */,
+				703B1CE11EAC7C2C00ADC385 /* TwoPlayerPassMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +324,7 @@
 				70665B5E1EAC1C3A001A47B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
