@@ -4,7 +4,7 @@ An updated version of the classic Tic Tac Toe game. The rules are the same, the 
 To test out my code, simply clone the project and run on your iPhone or in the Xcode simulator.
 ## Usage
 To play, choose a gameplay mode and try your best against the computer AI or a friend.
-### Three modes of gameplay:
+#### Three modes of gameplay:
 - One player versus the computer
 - Two players pass and play
 - Two players Network - Play over Wifi or Bluetooth
